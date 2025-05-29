@@ -9,7 +9,7 @@
 import Foundation
 import StoreKit
 
-protocol IAPServiceProtocol {
+public protocol IAPServiceProtocol {
     func getLoadedIAPProduct(with id: String) -> SKProduct?
     func purchaseAdRemoval()
     func purchaseStreakSaver()

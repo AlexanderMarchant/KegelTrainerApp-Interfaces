@@ -9,7 +9,7 @@
 import GoogleMobileAds
 import FBAudienceNetwork
 
-protocol AdServerProtocol {
+public protocol AdServerProtocol {
     
     var areAdsDisabled: Bool { get }
     
