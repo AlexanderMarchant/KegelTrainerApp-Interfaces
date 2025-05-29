@@ -6,7 +6,8 @@
 //  Copyright © 2025 Alex Marchant. All rights reserved.
 //
 
-
+import GoogleMobileAds
+import FBAudienceNetwork
 
 protocol AdServerProtocol {
     
